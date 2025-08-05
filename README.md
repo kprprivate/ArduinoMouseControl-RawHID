@@ -2,15 +2,13 @@
 
 A lightweight, low-latency Arduino HID mouse controller with automatic Python discovery via RawHID communication.
 
-## ✨ Features
+## Features
 
-- **🔍 Auto-Discovery**: Python automatically finds and connects to Arduino via HID enumeration
-- **⚡ Ultra-Low Latency**: Fire-and-forget commands with no response overhead
-- **🎮 Complete Control**: Mouse movement, left clicks, and scroll wheel support
-- **🔌 Plug & Play**: No complex setup - just upload and run
-- **🛡️ Reliable**: Robust HID communication with proper error handling
+- **Auto-Discovery**: Python automatically finds and connects to Arduino via HID enumeration
+- **Ultra-Low Latency**: Fire-and-forget commands with no response overhead
+- **Complete Control**: Mouse movement, left clicks, and scroll wheel support
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Hardware**: Arduino Leonardo/Micro/Pro Micro (32u4-based)
 2. **Install Library**: HID-Project library in Arduino IDE
@@ -18,7 +16,7 @@ A lightweight, low-latency Arduino HID mouse controller with automatic Python di
 4. **Install**: `pip install hidapi` 
 5. **Run**: `python mouse_controller.py`
 
-## 📡 API
+## LIB
 
 ```python
 mouse = ArduinoMouseController()
